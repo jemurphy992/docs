@@ -2,7 +2,7 @@
 title: "Mesh Design"
 ---
 
-NYC Mesh is designed and run as a mesh network.  As a mesh, various nodes connect to each other in a non-hierarchical way, with traffic flowing in either direction, and rerouting traffic as nodes fail.
+NYC Mesh is designed to run as a mesh network.  As a mesh, various nodes connect to each other in a non-hierarchical way, with traffic flowing in either direction, and rerouting traffic as nodes fail.
 
 As with all mesh networks, we must balance between becoming too much of a "star" topology vs a "mesh" topology.  
 Neither is fully practical -- Not literally every node next to each other can all connect to each other, nor can we sustain unlimited nodes connecting to one rooftop.  

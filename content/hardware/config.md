@@ -84,7 +84,7 @@ What the config file does: The config file sets DHCP for the IP address, WPA pas
 
 **2. Connect to the Router**
 
-1. To connect to the Omnitik wirelessly, find the router’s SSID and connect to it. (For SXTsq connect via cable)  
+1. To connect to the Omnitik wirelessly, find the router’s SSID and connect to it. (For SXTsq connect via cable). Save these instructions for you will not have internet access when on this SSID.
 2. To connect with a cable, plug one end of a patch cable into the Omnitik’s Port 2 and the other end into your computer’s LAN port. Set your computer to DHCP (automatic) and it will get an address like 192.168.88.xxx.
 3. Navigate to the default Mikrotik IP [192.168.88.1](http://192.168.88.1) in your web browser. This will open the Mikrotik GUI.
 The default username is admin and there is no password.
@@ -105,7 +105,7 @@ Refresh your browser to reenter the GUI. If the firmware update was successful, 
 
 **4. Upload Configuration**
 
-1. If you are using a Mac or Linux operating system, go into Terminal, navigate to the folder where you’ve saved the config and enter the following command:
+1. If you are using a Mac or Linux operating system, go into Terminal, navigate to the folder where you’ve saved the config (eg. cd Downloads) hit enter and paste the following command. Make sure that the "rooftop..." matches the file name in your computer:
 
   ```
 scp -o StrictHostKeyChecking=no rooftop-ospf.rsc admin@192.168.88.1:flash/
